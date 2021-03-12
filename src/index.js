@@ -1,10 +1,10 @@
 import React from 'react';
-import PageContent from '../PageContent'; 
-import About from '../About'; 
-import Portfolio from '../Portfolio'; 
-import Contact from '../Contaact'; 
-import Resume from '../Resume';
-import { captializeFirstLetter } from '../../utils/helpers'; 
+import PageContent from '../src/components/PageContent'; 
+import About from '../src/components/About'; 
+import Portfolio from '../src/components/Portfolio'; 
+import Contact from '../src/components/Contact'; 
+import Resume from '../src/components/Resume';
+import { captializeFirstLetter } from './utils/helpers'; 
 
 function Page({ currentPage }) { 
   const renderPage = () => { 
