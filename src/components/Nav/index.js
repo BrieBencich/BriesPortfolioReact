@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'; 
-import Page from '../..';
-import  { capitalFirstLetter } from '../../utils/helpers'; 
+
+import  { captializeFirstLetter } from '../../utils/helpers'; 
 
 function Nav(props) { 
     const { 
@@ -10,13 +10,13 @@ function Nav(props) {
     } = props;
 
     useEffect(() => { 
-        document.title = capitalFirstLetter(currentPage.name); 
+        document.title = captializeFirstLetter(currentPage.name); 
     }, [currentPage]);
 
     return ( 
         <nav>
             <ul className="flex-row">
-                {pages.map((page) => ( 
+                {pages.map((Page) => ( 
                     <li
                     className={`mx-5 ${
                         currentPage.name === Page.name && 'navActive'
@@ -26,7 +26,7 @@ function Nav(props) {
                         <span 
                         onClick={() => setCurrentPage(Page)}
                         >
-                            {capitalFirstLetter(Page.name)}
+                            {captializeFirstLetter(Page.name)}
                         </span>
                     </li>
                 ))}
