@@ -15,7 +15,7 @@ function Contact() {
     const handleSubmit = (e) => { 
         e.preventDefault(); 
         if (!errorMessage) { 
-            console.log('Please Submit Form', fromState);
+            console.log('Please Submit Form', formState);
         }
     };
 

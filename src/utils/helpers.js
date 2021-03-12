@@ -1,5 +1,5 @@
 // need to capitilize first letter 
-export function capitalFirstLetter(string) {
+export function captializeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
   

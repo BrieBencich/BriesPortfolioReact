@@ -3,7 +3,7 @@ import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
 function Project({ project }) { 
 
-    const { name, repo, link, description } = porject; 
+    const { name, repo, link, description } = project; 
 
     return ( 
         <div className="project" key={name}>
