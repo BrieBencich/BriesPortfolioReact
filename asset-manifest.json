@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/BriesPortfolioReact/static/js/main.dfe60aa7.chunk.js",
+    "main.js.map": "/BriesPortfolioReact/static/js/main.dfe60aa7.chunk.js.map",
+    "runtime-main.js": "/BriesPortfolioReact/static/js/runtime-main.ff136166.js",
+    "runtime-main.js.map": "/BriesPortfolioReact/static/js/runtime-main.ff136166.js.map",
+    "index.html": "/BriesPortfolioReact/index.html",
+    "static/js/main.dfe60aa7.chunk.js.LICENSE.txt": "/BriesPortfolioReact/static/js/main.dfe60aa7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff136166.js",
+    "static/js/main.dfe60aa7.chunk.js"
+  ]
+}
